@@ -185,7 +185,7 @@ def run_travel_app():
         input_value = preprocess_text(input_value)
         top_pred = get_prediction(input_value)
         if top_pred is not None:
-            return f"Explore {top_pred}!"
+            return top_pred
         else:
             return "Error during prediction"
             
@@ -197,8 +197,7 @@ def run_travel_app():
         if not input_value:  # Check if input is empty
             return '/assets/atacama_desert.jpg'  # Return the default image source
 
-        input_value = preprocess_text(input_value)
-        top_pred = get_prediction(input_value)
+        top_pred = input_value
         if top_pred is not None:
             # Set the image source based on the predicted location
             image_src = location_images.get(top_pred, '/assets/atacama_desert.jpg')

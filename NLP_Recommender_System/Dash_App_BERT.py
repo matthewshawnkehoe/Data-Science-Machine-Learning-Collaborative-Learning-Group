@@ -203,7 +203,7 @@ def run_travel_app():
         top_location_index = np.argmax(similarity_scores)
         top_location = travel_df.loc[top_location_index, 'Location']
        
-        return f"Explore {top_location}!"
+        return top_location
     
     @app.callback(
         Output(component_id='image', component_property='src'),
@@ -212,20 +212,8 @@ def run_travel_app():
         if not input_value:  # Check if input is empty
             return "Please enter some text to get a recommendation", ''
 
-        # Get the predicted location
-        input_value = preprocess_text(input_value)
-        query_encoding = get_bert_embeddings(input_value, preprocessor, encoder)
-        query_encoding = tf.squeeze(query_encoding, axis=0)  # Squeeze the batch dimension
-       
-        # Convert BERT embeddings in DataFrame to 2D array
-        encodings = np.stack(travel_df['encodings'].apply(lambda x: np.array(x)).values)
-        encodings = np.squeeze(encodings, axis=1)  # Squeeze extra dimension
-       
-        # Compute similarity scores between input text and all locations
-        similarity_scores = cosine_similarity([query_encoding.numpy()], encodings)[0]  # Compute cosine similarity
-        top_location_index = np.argmax(similarity_scores)
-        top_location = travel_df.loc[top_location_index, 'Location']
-       
+        top_location = input_value
+        
         # Set the image source based on the predicted location
         image_src = location_images.get(top_location, '/assets/atacama_desert.jpg')
         return image_src
