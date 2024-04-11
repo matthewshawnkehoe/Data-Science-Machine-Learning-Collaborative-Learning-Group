@@ -17,7 +17,7 @@ from dash.dependencies import Input, Output
 nltk.download(['stopwords', 'wordnet'])
 
 # Read the travel data
-travel_df = pd.read_csv('C:/Users/mskeh/Documents/GitHub/Thinkful/Capstone Projects/Final_Capstone_NLP_Search_Recommendation/Data/all_things_to_do.csv')
+travel_df = pd.read_csv('C:/Users/mskeh/Documents/GitHub/ML_Notebooks/NLP_Recommender_System/Data/all_things_to_do.csv')
 
 def clean_text_column(df, column_name):
     """
