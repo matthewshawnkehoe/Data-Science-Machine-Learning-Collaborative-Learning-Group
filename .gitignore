@@ -1,0 +1,14 @@
+# Compiled python files
+*.pyc
+__pycache__/
+
+# Dependencies
+venv/
+env/
+"NLP_Recommender_System/venv/" 
+*.egg-info/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
