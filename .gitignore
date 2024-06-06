@@ -12,3 +12,7 @@ env/
 .vscode/
 .idea/
 *.sublime-project
+
+# .csv and .jpg files
+*.csv
+*.jpg
