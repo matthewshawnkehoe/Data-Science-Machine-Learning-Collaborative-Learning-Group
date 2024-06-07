@@ -1,6 +1,0 @@
-.* 
-"# Ignore virtual environment directories" 
-"venv/" 
-"env/" 
-"NLP_Recommender_System/venv/" 
-"" 
