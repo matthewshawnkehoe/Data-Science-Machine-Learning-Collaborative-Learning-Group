@@ -19,7 +19,7 @@ nltk.download(['stopwords', 'wordnet'])
 nltk.download('punkt')
 
 # Read the travel data
-travel_df = pd.read_csv('C:/Users/mskeh/Documents/GitHub/ML_Notebooks/NLP_Recommender_System/Data/all_things_to_do.csv')
+travel_df = pd.read_csv('C:/Users/mskeh/Documents/GitHub/ML_Notebooks/NLP_Information_Retrieval_System/Data/all_things_to_do.csv')
 
 def clean_text_column(df, column_name):
     """
