@@ -2,7 +2,7 @@
 
 This repository contains material from the [Data Science & Machine Learning Collaborative Learning Meetup Group](https://www.meetup.com/Data-Science-Machine-Learing-Collaborative-Learning-Group/).
 
-We are a dedicated group of learners who convene regularly, typically on a monthly basis, to explore and discuss our shared interests in data science, technology, and the sciences. We collaboratively select study materials and engage in in-depth study sessions to enhance our understanding and support continuous professional development. We welcome everyone an interest in these fields to join us in our commitment to ongoing learning and growth.
+We are a dedicated group of learners who convene regularly, typically on a monthly basis, to explore and discuss our shared interests in data science, technology, and the sciences. We collaboratively select study materials and engage in in-depth study sessions to enhance our understanding and support continuous professional development. Anyone interested in these fields is welcome to join us in our pursuit of continuous learning and development.
 
 Books covered:
 * [Deep Learning with Python 2nd Edition](https://www.manning.com/books/deep-learning-with-python) by François Chollet
