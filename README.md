@@ -1,2 +1,19 @@
-# Machine Learning in Python
-This repository contains selected notebook files from [Deep Learning with Python 2nd Edition](https://www.manning.com/books/deep-learning-with-python) by François Chollet alongside selected Kaggle projects about supervised, unsupervised, and self-supervised machine leaning.
+# Data Science & Machine Learning Collaborative Learning Group
+
+This repository contains material from the [Data Science & Machine Learning Collaborative Learning Meetup Group](https://www.meetup.com/Data-Science-Machine-Learing-Collaborative-Learning-Group/).
+
+We are a dedicated group of learners who convene regularly, typically on a monthly basis, to explore and discuss our shared interests in data science, technology, and the sciences. We collaboratively select study materials and engage in in-depth study sessions to enhance our understanding and support continuous professional development. We welcome everyone an interest in these fields to join us in our commitment to ongoing learning and growth.
+
+Books covered:
+* [Deep Learning with Python 2nd Edition](https://www.manning.com/books/deep-learning-with-python) by François Chollet
+
+Topics covered:
+* Supervised Machine Learning
+* Unsupervised Machine Learning
+* Self-supervised Machine Learning
+* Natural Language Processing
+* Deep Learning
+* Statistical Learning with Applications
+* Big data tools such as Spark and Hadoop
+* Data analysis in Python, R, and SQL. Also, functionality in Julia.
+* Large Language Models
