@@ -1,6 +1,6 @@
 # Data Science & Machine Learning Collaborative Learning Group
 
-This repository contains material from the [Data Science & Machine Learning Collaborative Learning Meetup Group](https://www.meetup.com/Data-Science-Machine-Learing-Collaborative-Learning-Group/).
+This repository contains material from the [Data Science & Machine Learning Collaborative Learning Meetup Group](https://www.meetup.com/Data-Science-Machine-Learing-Collaborative-Learning-Group/). We currently meet on the [second and fourth Tuesday evenings](https://www.meetup.com/data-science-machine-learing-collaborative-learning-group/events/) of each month.
 
 We are a dedicated group of learners who convene regularly, typically on a monthly basis, to explore and discuss our shared interests in data science, technology, and the sciences. We collaboratively select study materials and engage in in-depth study sessions to enhance our understanding and support continuous professional development. Anyone interested in these fields is welcome to join us in our pursuit of continuous learning and development.
 
