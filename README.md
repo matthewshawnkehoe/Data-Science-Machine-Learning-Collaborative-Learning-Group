@@ -6,6 +6,10 @@ We are a dedicated group of learners who convene regularly, typically on a month
 
 Books covered:
 * [Deep Learning with Python 2nd Edition](https://www.manning.com/books/deep-learning-with-python) by François Chollet
+* [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch) by Sebastian Raschka
+
+Courses covered:
+* [Hugging Face NLP course](https://huggingface.co/learn/nlp-course/chapter0/1)
 
 Topics covered:
 * Supervised Machine Learning
